@@ -436,12 +436,12 @@ footer p {
 }
 @media only screen and (max-width: 770px) {
     .about {
-        margin-top: 45em;
+        margin-top: 75em;
     }
 }
 @media only screen and (max-width: 555px) {
     .about {
-        margin-top: 75em;
+        margin-top: 85em;
     }
     .title {
             letter-spacing: 9px;
