@@ -46,39 +46,18 @@ title {
 span {
     display: inline-block;
 }
-a, a:visited {
+a, {
     position: relative;
     text-decoration: none;
     color: #9db4ff;
     transition: 0.1s linear;
     font-size: calc(1rem + 0.8vw);
 }
-a::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 0.5px;
-    background: #9db4ff;
-    bottom: -4px;
-    left: 0;
-    transform-origin: left;
-}
+
 a:hover {
-    transform: scale(1.04);
-    color: #d9cdcd;
+    filter: brightness(130%);
 }
-a:hover::after {
-    animation: linkAnimate 1.4s infinite ease-in-out;
-    background: #d9cdcd;
-}
-@keyframes linkAnimate {
-    50% {
-        transform: scaleX(0);
-    }
-    100% {
-        transform: scaleX(1);
-    }
-}
+
 .img {
     height: 395px;
     width: 100vw;
@@ -90,20 +69,7 @@ a:hover::after {
 .img:hover {
     filter: grayscale(10%);
 }
-.line {
-    height: 1.5px;
-    width: 80%;
-    background: #080d1c;
-    margin: 0 auto;
-    transition: 1s cubic-bezier(0.80,0,0.18,1);
-    transition-delay: 0.65s;
-    opacity: 0;
-    transform: scaleX(0);
-}
-.line-wrapper.is-inview .line {
-    opacity: 1;
-    transform: scaleX(1);
-}
+
 .wrapper {
     perspective: 900px;
 }
@@ -126,7 +92,8 @@ header {
 }
 .links {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
+    gap: 10px;
 }
 h1 {
     font-size: calc(2rem + 6vw);
@@ -300,6 +267,12 @@ header h2 {
 	flex-direction: column;
 	text-align: center;
 }
+.about {
+    margin-top: 50px;
+}
+.h2-wrapper {
+    padding: 50px;
+}
 
 .skills {
     margin: 200px 0 250px;
@@ -463,12 +436,12 @@ footer p {
 }
 @media only screen and (max-width: 770px) {
     .about {
-        margin-top: 35em;
+        margin-top: 45em;
     }
 }
 @media only screen and (max-width: 555px) {
     .about {
-        margin-top: 45em;
+        margin-top: 75em;
     }
     .title {
             letter-spacing: 9px;
@@ -481,3 +454,4 @@ footer p {
     }    
     
 }
+
