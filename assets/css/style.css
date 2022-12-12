@@ -127,12 +127,12 @@ header h2 {
 }
 .card-container {
     padding-top: 25px;
-	margin-top: 5px;
+    margin-top: 5px;
     display: flex;
     flex-direction:row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 120px;
+    gap: 150px;
 }
 .main-container {
     display: flex;
