@@ -339,7 +339,7 @@ header h2 {
     margin-left: 8vw;
 }
 #p4 {
-    margin: 0 8vw 0 auto;
+    margin: 8vW 8vw 0 auto;
 }
 .project img {
     opacity: 1;
