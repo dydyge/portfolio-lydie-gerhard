@@ -43,8 +43,8 @@ h2 {
 .subtitle {
     margin: 30px;
     color: #9db4ff;
+    font-size: calc(1.5rem + 2vw);
 }
-
 span {
     display: inline-block;
 }
@@ -55,11 +55,9 @@ a {
     transition: 0.1s linear;
     font-size: calc(1rem + 0.8vw);
 }
-
 a:hover {
     filter: brightness(130%);
 }
-
 .img {
     height: 395px;
     width: 100vw;
@@ -272,10 +270,6 @@ header h2 {
 .about {
     margin-top: 50px;
 }
-.h2-wrapper {
-    padding: 50px;
-}
-
 .skills {
     margin: 200px 0 250px;
 }
@@ -436,12 +430,11 @@ footer {
 }
 footer p {
     font-size: calc(0.5rem + 1vw);
-    margin: 25px;
-    
+    margin: 25px;    
 }
 @media only screen and (max-width: 770px) {
     .about {
-        margin-top: 75em;
+        margin-top: 85em;
     }
     #p1 {
         margin: 0 8vw 8vw auto;
@@ -449,12 +442,12 @@ footer p {
     #p3 {
         margin: 8vw 8vw 0 auto;
     }
+    .title {
+        letter-spacing: 6px;
+}
 }
 @media only screen and (max-width: 355px) {
     .about {
         margin-top: 100em;
-    }
-    .title {
-        letter-spacing: 9px;
-}
+    }  
 }
