@@ -449,5 +449,8 @@ footer p {
 @media only screen and (max-width: 355px) {
     .about {
         margin-top: 100em;
-    }  
+    }
+    .h2-wrapper {
+        padding: 30px;
+    }	
 }
