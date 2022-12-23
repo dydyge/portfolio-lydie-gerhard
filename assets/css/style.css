@@ -382,7 +382,7 @@ header h2 {
 }
 .project h3 {
     word-spacing: -0.15em;
-    font-size: calc(0.5rem + 3vw);
+    font-size: calc(0.7rem + 3vw);
     font-weight: 300;
     text-transform: uppercase;
     -webkit-transform: translate3d(0%, 50%, 0);
@@ -441,6 +441,12 @@ footer p {
     }
     #p3 {
         margin: 8vw 8vw 0 auto;
+    }
+    #p4 {
+        margin: 8vW 8vw 0 auto;
+    }
+    #p5 {
+        margin: 0 8vw 8vw auto;
     }
     .title {
         letter-spacing: 6px;
