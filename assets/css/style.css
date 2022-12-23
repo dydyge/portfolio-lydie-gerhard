@@ -41,7 +41,7 @@ h2 {
     text-align: center;
 }
 .subtitle {
-    margin: 30px;
+    margin: 30px 30px 60px 30px;
     color: #9db4ff;
     font-size: calc(1.5rem + 2vw);
 }
@@ -274,7 +274,7 @@ header h2 {
     margin: 200px 0 250px;
 }
 .skills h2 {
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 .skills .wrapper {
     margin: 30px 0;
@@ -298,7 +298,7 @@ header h2 {
     flex-direction: column;
 }
 .projects-container {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .project {
     position: relative;
