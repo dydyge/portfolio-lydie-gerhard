@@ -444,7 +444,10 @@ footer p {
     }
     .title {
         letter-spacing: 6px;
-}
+    }
+    .h2-wrapper {
+        padding: 40px;
+    }
 }
 @media only screen and (max-width: 355px) {
     .about {
