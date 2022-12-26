@@ -339,10 +339,13 @@ header h2 {
     margin-left: 8vw;
 }
 #p4 {
-    margin: 8vW 8vw 0 auto;
+    margin: 0 8vw 0 auto;
 }
 #p5 {
     margin-left: 8vw;
+}
+#p6 {
+    margin: 0 8vw 0 auto;
 }
 .project img {
     opacity: 1;
@@ -392,6 +395,9 @@ header h2 {
     transform: translate3d(0%, 50%, 0);
     -webkit-transition-delay: 0.3s;
     transition-delay: 0.3s;
+}
+#titre-3 {
+    font-size: calc(0.9rem + 2vw);
 }
 a.portfolioLink {
     left: 0;
